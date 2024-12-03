@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Compilar Projeto",
+        "type": "shell",
+        "command": "gcc",
+        "args": [
+          "-o",
+          "programa",
+          "main.c",
+          "algoritmo.c",
+          "funcao.c",
+          "utils.c"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$gcc"],
+        "detail": "Compilação do projeto com GCC"
+      }
+    ]
+  }
+  
