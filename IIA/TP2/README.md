@@ -8,58 +8,69 @@
 
 ## Plano de Ação
 
-### 04/12 - 05/12: Compreensão e Planejamento Detalhado
+### 04/12: Preparação e Análise dos Arquivos de Teste
 
-( ) Revisar o problema e entender as instâncias fornecidas.
+( ) Analisar os arquivos file1.txt a file5.txt e entender a estrutura dos dados (quantidade de moedas, valores e objetivo).
 
-( ) Estudar os conceitos de pesquisa local, algoritmo evolutivo e métodos híbridos.
+( ) Revisar o arquivo Best_solutions.pdf para usar as melhores soluções como benchmarks.
 
-( ) Definir a representação das soluções e a função de avaliação.
+( ) Definir as funções de leitura dos arquivos .txt.
 
-### 06/12 - 08/12: Implementação dos Algoritmos Individuais
+### 05/12: Planejamento da Implementação e Definição de Heurísticas
 
-( ) 06/12: Implementar o algoritmo de pesquisa local com duas vizinhanças.
+( ) Especificar as heurísticas a serem usadas na pesquisa local, considerando que as melhores soluções já são conhecidas.
 
-( ) 07/12: Implementar o algoritmo evolutivo (definindo operadores de recombinação e mutação).
+( ) Planejar estratégias de penalização/reparação para garantir a validade das soluções.
 
-( ) 08/12: Testar ambos os algoritmos com instâncias simples e realizar ajustes.
+( ) Validar a lógica de comparação com as melhores soluções fornecidas.
 
 
-### 09/12 - 10/12: Desenvolvimento das Abordagens Híbridas
+### 06/12 a 08/12: Implementação e Testes Iniciais
 
-( ) Implementar duas abordagens híbridas usando as melhores versões dos algoritmos.
+( ) 06/12: Pesquisa Local: 
 
-( ) Definir estratégias de integração entre pesquisa local e evolutivo.
+- Implementar o algoritmo de pesquisa local (como Trepa-Colinas ou Recristalização Simulada).
 
-( ) Testar as abordagens híbridas com instâncias simples.
+- Testar em file1.txt e file2.txt para ajustes iniciais.
 
-### 11/12 - 12/12: Estudo Experimental e Análise dos Resultados
+( ) 07/12: Algoritmo Evolutivo:
 
-( ) Executar testes variando parâmetros conforme o roteiro: Iterações, vizinhanças, tamanho da população, probabilidades de mutação/recombinação.
+- Implementar o algoritmo evolutivo (operações de crossover e mutação).
 
-( ) Repetir cada teste 10 vezes e coletar resultados médios.
+- Testar com file3.txt e verificar se está convergindo para as melhores soluções.
 
-( ) Comparar os resultados dos três métodos.
+( ) 08/12: Integração e Testes:
 
-### 13/12: Redação do Relatório Final
+- Realizar uma integração básica entre os dois métodos, criando um protótipo do híbrido.
+- Validar com file4.txt e comparar resultados com o benchmark (108).
 
-( ) Escrever o relatório detalhando: Representação e função de avaliação.
-Descrição dos algoritmos e decisões tomadas.
-Análise dos resultados experimentais.
-Tabelas e gráficos com as médias dos testes.
+### 09/12 a 10/12: Refinamento e Estudos Híbridos
 
-( ) Revisar o relatório para clareza e correção.
+( ) Implementar e testar a abordagem híbrida usando todas as instâncias (file1.txt a file5.txt).
 
-### 14/12: Organização do Código e Testes Finais
+( ) Ajustar parâmetros como:
+Tamanho da população.
+Taxa de mutação e crossover.
+Critérios de parada.
 
-( ) Garantir que o código está limpo e comentado.
+( ) Comparar os resultados com as melhores soluções fornecidas (Benchmark).
 
-( ) Criar o executável e exemplos de teste.
+### 11/12 a 12/12: Análise Estatística e Consolidação dos Resultados
 
-( ) Revisar o Excel com todos os testes.
+( ) Repetir cada experimento 10 vezes e calcular médias e desvio padrão.
 
-### 15/12: Submissão do Trabalho
+( ) Gerar tabelas e gráficos em Excel.
 
-( ) Compactar o código, relatório e arquivos de teste em um ZIP.
+### 13/12: Redação e Revisão do Relatório
 
-( ) Submeter no Moodle antes do prazo final (23h59).
+( ) Documentar todas as decisões, estratégias e resultados.
+
+( ) Fazer uma análise crítica comparativa, destacando as melhorias alcançadas.
+
+### 14/12 a 15/12: Submissão do Trabalho
+
+( ) Garantir que o código está bem documentado e revisado.
+
+( ) Organizar todos os arquivos (código, relatório, Excel, screenshots).
+
+( ) Compactar tudo e submeter antes do prazo final.
