@@ -18,11 +18,11 @@
 
 ### 05/12: Planejamento da Implementação e Definição de Heurísticas (TODOS)
 
-( ) Especificar as heurísticas a serem usadas na pesquisa local, considerando que as melhores soluções já são conhecidas.
+(X) Especificar as heurísticas a serem usadas na pesquisa local, considerando que as melhores soluções já são conhecidas.
 
-( ) Planejar estratégias de penalização/reparação para garantir a validade das soluções.
+(X) Planejar estratégias de penalização/reparação para garantir a validade das soluções.
 
-( ) Validar a lógica de comparação com as melhores soluções fornecidas.
+(X) Validar a lógica de comparação com as melhores soluções fornecidas.
 
 
 ### 06/12 a 08/12: Implementação e Testes Iniciais
