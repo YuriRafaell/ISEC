@@ -1,0 +1,6 @@
+Fazer um programa que inclua uma função que permita colocar todas
+as vogais de uma palavra em maiúsculas
+• Assuma que a palavra é recebida como argumento
+• A palavra com as vogais em maiúscula deverá ser retornada pela função
+• Evolua a função para que possa retornar, para além da palavra alterada, o
+número de alterações realizadas
