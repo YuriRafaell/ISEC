@@ -27,13 +27,13 @@
 
 ### 06/12 a 08/12: Implementação e Testes Iniciais
 
-( ) 06/12: Pesquisa Local: (YURI)
+(X) 06/12: Pesquisa Local: (MURILO)
 
 - Implementar o algoritmo de pesquisa local (como Trepa-Colinas ou Recristalização Simulada).
 
 - Testar em file1.txt e file2.txt para ajustes iniciais.
 
-( ) 07/12: Algoritmo Evolutivo: (MURILO)
+( ) 07/12: Algoritmo Evolutivo: (YURI)
 
 - Implementar o algoritmo evolutivo (operações de crossover e mutação).
 
