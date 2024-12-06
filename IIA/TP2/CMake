@@ -1,0 +1,15 @@
+# Define a versão mínima do CMake necessária para o projeto
+cmake_minimum_required(VERSION 3.10)
+
+# Nome do projeto
+project(CoinChangeTP2)
+
+# Define o padrão do compilador C como C99
+set(CMAKE_C_STANDARD 99)
+
+# Adiciona o executável
+add_executable(CoinChangeTP2
+        CoinChangeTP2_main.c
+        troco.c
+)
+
