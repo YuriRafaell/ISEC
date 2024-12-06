@@ -10,11 +10,11 @@
 
 ### 04/12: Preparação e Análise dos Arquivos de Teste (TODOS)
 
-( ) Analisar os arquivos file1.txt a file5.txt e entender a estrutura dos dados (quantidade de moedas, valores e objetivo).
+(X) Analisar os arquivos file1.txt a file5.txt e entender a estrutura dos dados (quantidade de moedas, valores e objetivo).
 
-( ) Revisar o arquivo Best_solutions.pdf para usar as melhores soluções como benchmarks.
+(X) Revisar o arquivo Best_solutions.pdf para usar as melhores soluções como benchmarks.
 
-( ) Definir as funções de leitura dos arquivos .txt.
+(X) Definir as funções de leitura dos arquivos .txt.
 
 ### 05/12: Planejamento da Implementação e Definição de Heurísticas (TODOS)
 
