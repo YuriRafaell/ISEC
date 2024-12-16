@@ -1,19 +1,20 @@
 CC = gcc
-CFLAGS = -Wall -g -lm
+CFLAGS = -Wall -g
+LDFLAGS = -lm
 
-# Arquivos de origem
-SRC = main.c coin_change_ea.c utils.c
-OBJ = $(SRC:.c=.o)
-EXEC = coin_change
+all: coin_change
 
-# Regra para compilar o programa
-$(EXEC): $(OBJ)
-	$(CC) $(CFLAGS) -o $(EXEC) $(OBJ)
+coin_change: main.o coin_change_ea.o utils.o
+	$(CC) $(CFLAGS) -o coin_change main.o coin_change_ea.o utils.o $(LDFLAGS)
 
-# Regra para compilar os arquivos .c em .o
-.c.o:
-	$(CC) $(CFLAGS) -c $<
+main.o: main.c coin_change_ea.h
+	$(CC) $(CFLAGS) -c main.c
 
-# Limpar arquivos compilados
+coin_change_ea.o: coin_change_ea.c coin_change_ea.h
+	$(CC) $(CFLAGS) -c coin_change_ea.c
+
+utils.o: utils.c utils.h coin_change_ea.h
+	$(CC) $(CFLAGS) -c utils.c
+
 clean:
-	rm -f $(OBJ) $(EXEC)
+	rm -f *.o coin_change

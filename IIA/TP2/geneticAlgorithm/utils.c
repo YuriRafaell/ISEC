@@ -1,22 +1,23 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "utils.h" 
 
-// Função de seleção por torneio
+// Função de seleção por torneio com mais aleatoriedade
 Solution* tournament_selection(Solution population[]) {
-    // Implementação da seleção por torneio
-    // Exemplo de código:
-    int best_index = 0;
-    for (int i = 1; i < POPULATION_SIZE; i++) {
-        if (population[i].fitness > population[best_index].fitness) {
-            best_index = i;
+    int k = 5;  // Tamanho do torneio
+    int best_index = rand() % POPULATION_SIZE;
+    
+    for (int i = 1; i < k; i++) {
+        int candidate_index = rand() % POPULATION_SIZE;
+        if (population[candidate_index].fitness > population[best_index].fitness) {
+            best_index = candidate_index;
         }
     }
     return &population[best_index];
 }
 
-// Função para encontrar a melhor solução
+// Função para encontrar a melhor solução global
 Solution* find_best_solution(Solution population[]) {
-    // Implementação para encontrar a melhor solução
     int best_index = 0;
     for (int i = 1; i < POPULATION_SIZE; i++) {
         if (population[i].fitness > population[best_index].fitness) {
@@ -26,13 +27,12 @@ Solution* find_best_solution(Solution population[]) {
     return &population[best_index];
 }
 
-// Função para imprimir a solução
+// Função para imprimir a solução com mais detalhes
 void print_solution(Solution *solution, ProblemInstance *problem) {
-    // Implementação de impressão da solução
     printf("Solução encontrada:\n");
     for (int i = 0; i < problem->num_coin_types; i++) {
-        printf("Moeda %d: %d\n", i + 1, solution->coin_counts[i]);
+        printf("Moeda %d: %d ", i + 1, solution->coin_counts[i]);
     }
-    printf("Valor total: %.2f\n", solution->total_value);
-    printf("Fitness: %.2f\n", solution->fitness);
+    printf("\nValor total: %.2f ", solution->total_value);
+    printf("Fitness: %.2f\n\n", solution->fitness);
 }
