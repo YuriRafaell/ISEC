@@ -35,7 +35,7 @@ Abaixo, apresento algumas das atividades realizadas e as soluções propostas em
       <tr>
         <td align="center">TP2</td>
         <td align="center"><a href="https://github.com/YuriRafaell/ISEC/tree/main/IIA/TP2">Código</a></td>
-        <td align="center">❌</td>
+        <td align="center">✔️</td>
       </tr>
     </table>
   </div>

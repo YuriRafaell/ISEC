@@ -1,5 +1,7 @@
 # Roteiro
 
+Ouve problemas tecnicos, impossibilitando o commit do projeto completo.
+
 ## Objetivos principais:
 
 - Implementar três algoritmos: pesquisa local, evolutivo e híbrido.
@@ -33,44 +35,44 @@
 
 - Testar em file1.txt e file2.txt para ajustes iniciais.
 
-( ) 07/12: Algoritmo Evolutivo: (YURI)
+(X) 07/12: Algoritmo Evolutivo: (YURI)
 
 - Implementar o algoritmo evolutivo (operações de crossover e mutação).
 
 - Testar com file3.txt e verificar se está convergindo para as melhores soluções.
 
-( ) 08/12: Integração e Testes: (TODOS)
+(X) 08/12: Integração e Testes: (TODOS)
 
 - Realizar uma integração básica entre os dois métodos, criando um protótipo do híbrido.
 - Validar com file4.txt e comparar resultados com o benchmark (108).
 
 ### 09/12 a 10/12: Refinamento e Estudos Híbridos (TODOS)
 
-( ) Implementar e testar a abordagem híbrida usando todas as instâncias (file1.txt a file5.txt).
+(X) Implementar e testar a abordagem híbrida usando todas as instâncias (file1.txt a file5.txt).
 
-( ) Ajustar parâmetros como:
+(X) Ajustar parâmetros como:
 Tamanho da população.
 Taxa de mutação e crossover.
 Critérios de parada.
 
-( ) Comparar os resultados com as melhores soluções fornecidas (Benchmark).
+(X) Comparar os resultados com as melhores soluções fornecidas (Benchmark).
 
 ### 11/12 a 12/12: Análise Estatística e Consolidação dos Resultados (TODOS)
 
-( ) Repetir cada experimento 10 vezes e calcular médias e desvio padrão.
+(X) Repetir cada experimento 10 vezes e calcular médias e desvio padrão.
 
-( ) Gerar tabelas e gráficos em Excel.
+(X) Gerar tabelas e gráficos em Excel.
 
 ### 13/12: Redação e Revisão do Relatório (TODOS)
 
-( ) Documentar todas as decisões, estratégias e resultados.
+(X) Documentar todas as decisões, estratégias e resultados.
 
-( ) Fazer uma análise crítica comparativa, destacando as melhorias alcançadas.
+(X) Fazer uma análise crítica comparativa, destacando as melhorias alcançadas.
 
 ### 14/12 a 15/12: Submissão do Trabalho (TODOS)
 
-( ) Garantir que o código está bem documentado e revisado.
+(X) Garantir que o código está bem documentado e revisado.
 
-( ) Organizar todos os arquivos (código, relatório, Excel, screenshots).
+(X) Organizar todos os arquivos (código, relatório, Excel, screenshots).
 
-( ) Compactar tudo e submeter antes do prazo final.
+(X) Compactar tudo e submeter antes do prazo final.
