@@ -37,6 +37,11 @@ Abaixo, apresento algumas das atividades realizadas e as soluções propostas em
         <td align="center"><a href="https://github.com/YuriRafaell/ISEC/tree/main/IIA/TP2">Código</a></td>
         <td align="center">✔️</td>
       </tr>
+      <tr>
+        <td align="center">Exame Época Normal</td>
+        <td align="center"><a href="https://github.com/YuriRafaell/ISEC/tree/main/IIA/Exames">Resolução</a></td>
+        <td align="center">❌</td>
+      </tr>
     </table>
   </div>
 </details>
@@ -82,10 +87,15 @@ Abaixo, apresento algumas das atividades realizadas e as soluções propostas em
         <td align="center"><a href="https://github.com/YuriRafaell/ISEC/tree/main/PDM/teste_aula11">Código</a></td>
         <td align="center">✔️</td>
       </tr>
-       <tr>
+      <tr>
         <td align="center">Aula 12</td>
         <td align="center"><a href="https://github.com/YuriRafaell/ISEC/tree/main/PDM/aula12">Código</a></td>
         <td align="center">✔️</td>
+      </tr>
+      <tr>
+        <td align="center">Exame Época Normal</td>
+        <td align="center"><a href="https://github.com/YuriRafaell/ISEC/tree/main/PDM/Exames">Resolução</a></td>
+        <td align="center">❌</td>
       </tr>
     </table>
   </div>
