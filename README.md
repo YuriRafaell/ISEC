@@ -95,7 +95,7 @@ Abaixo, apresento algumas das atividades realizadas e as soluções propostas em
       <tr>
         <td align="center">Exame Época Normal</td>
         <td align="center"><a href="https://github.com/YuriRafaell/ISEC/tree/main/PDM/Exames">Resolução</a></td>
-        <td align="center">❌</td>
+        <td align="center">✔️</td>
       </tr>
     </table>
   </div>

@@ -1,0 +1,75 @@
+1)
+Set: {1, 2, 3, 4, 9, 16}
+Map: {10: *16*}
+
+2)
+a. Visibilidade do Estado do Sistema (H1)
+Os botões da barra de navegação inferior indicam claramente o estado atual, com destaques visuais (ex.: ícone realçado ou sublinhado) que mostram em qual seção o utilizador está, garantindo que ele saiba onde se encontra no aplicativo.
+
+b. Consistência e Normas (H4)
+Os ícones e funcionalidades seguem padrões amplamente aceitos em interfaces móveis, utilizando símbolos familiares (ex.: casa para Home, sino para Notificações), o que torna a navegação intuitiva e consistente com outras aplicações.
+
+c. Prevenção de Erros (H5)
+A organização clara e a fácil acessibilidade dos botões minimizam a probabilidade de toques acidentais, enquanto os ícones representam ações óbvias, reduzindo confusão ou navegação para a seção errada.
+
+d. Reconhecer em vez de Lembrar (H6)
+Os ícones estão sempre visíveis na barra inferior, eliminando a necessidade de o utilizador memorizar como acessar as diferentes seções. Isso facilita a navegação ao permitir que ele reconheça imediatamente a funcionalidade desejada.
+
+3)
+body: Center(
+  child: Column(
+    mainAxisAlignment: MainAxisAlignment.center,
+    children: [
+      Container(
+        width: 40,
+        height: 40,
+        alignment: Alignment.center,
+        decoration: BoxDecoration(
+          color: Colors.grey.shade200,
+        ),
+        child: Text(
+          '$_number',
+          style: TextStyle(fontSize: 20),
+        ),
+      ),
+      SizedBox(height: 20),
+      Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          IconButton(
+            icon: Icon(Icons.keyboard_arrow_left),
+            onPressed: () => _addToNumber(-1),
+          ),
+          IconButton(
+            icon: Icon(Icons.keyboard_double_arrow_down),
+            onPressed: () => _addToNumber(-10),
+          ),
+          IconButton(
+            icon: Icon(Icons.restart_alt),
+            onPressed: _resetNumber,
+          ),
+          IconButton(
+            icon: Icon(Icons.keyboard_double_arrow_up),
+            onPressed: () => _addToNumber(10),
+          ),
+          IconButton(
+            icon: Icon(Icons.keyboard_arrow_right),
+            onPressed: () => _addToNumber(1),
+          ),
+        ],
+      ),
+    ],
+  ),
+),
+
+Container: Mostra o número atual (_number) com o fundo cinza e largura de 40.
+Row: Contém os botões organizados horizontalmente.
+IconButton: Cada botão tem um ícone e chama um método correspondente:
+Icons.keyboard_arrow_left: Decrementa 1.
+Icons.keyboard_double_arrow_down: Decrementa 10.
+Icons.restart_alt: Reinicia para 0.
+Icons.keyboard_double_arrow_up: Incrementa 10.
+Icons.keyboard_arrow_right: Incrementa 1.
+
+4)
+O método setState() é usado para notificar o Flutter que o estado de um StatefulWidget foi alterado, permitindo que o framework reconstrua a interface (UI) com base nas mudanças. É essencial para manter a interface sincronizada com os dados.
